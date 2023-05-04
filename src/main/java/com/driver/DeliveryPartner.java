@@ -5,6 +5,14 @@ public class DeliveryPartner {
     private String id;
     private int numberOfOrders;
 
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setNumberOfOrders(int numberOfOrders) {
+        this.numberOfOrders = numberOfOrders;
+    }
+
     public DeliveryPartner(String id) {
         this.id = id;
         this.numberOfOrders = 0;
